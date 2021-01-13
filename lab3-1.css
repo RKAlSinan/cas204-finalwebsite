@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* Reem AlSinan's CSS Document. 
+
+Pink: #C2ACBE
+Dark Gray: #666666
+light blue: #639DC2
+yellow green: #AEC7A9
+White: #ffffff
+
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+background-image: url("greenarabesque.JPG");
+	
+
+}
+	
+
+body {
+	width: 800px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: darkgray; /* Pre-color: #639DC2 */
+	border-style: dotted;
+	border-width: 10px;
+	padding: 50px;
+	background-image: url("starsbackground.JPG");
+	
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+	
+}
+
+#nav {
+	text-align: center;
+	list-style-type: none;
+	/* there was a width here*/
+	padding: 15px;
+	font-family: 'Chelsea Market', cursive;
+	margin-right: auto;
+	margin-right: auto;
+	
+
+}
+
+#nav a {
+	
+	color:darkgreen;
+	
+	background-color:floralwhite;
+	border-color:#D78BD7;
+	border-style: dotted;
+	border-width: 4px;
+	padding: 15px
+		
+
+	
+}
+
+#nav li{
+	
+	display: inline;
+	background-color:floralwhite;
+	border-color:#D78BD7;
+	border-width: 4px;
+	
+	
+	
+}
+#nav a:hover{
+	color:white;
+	background-color:darkgreen;
+	padding: 15px;
+}
+h1 {
+	text-align: center;
+	background-color: #AEC7A9;
+	color: #666666;
+	font-family: 'Chelsea Market', cursive;
+}
+
+
+h2 {
+	padding: 7px;
+	color: #ffffff;
+	background-color: #666666;
+	font-family: 'Chelsea Market', cursive;
+}
+
+h3 {
+	color: #666666; /* Pre-color: #639DC2*/
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+
+
+img {
+	border-color: darkgray; /* Pre-color: #639DC2*/
+	border-style: solid;
+	border-width: 5px;
+	
+
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+	
+}
+
+
+
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: green; /* Pre-color: #639DC2*/
+	
+	
+}
+
+a:visited {
+	color:darkgray;
+}
+
+a:active {
+	background-color:lemonchiffon;
+}
+
+/* Footer*/
+
+
+
+
+
+#containter { 
+	
+	min-height: 100%; 
+
+} 
+
+#main {
+overflow: auto;
+	padding-bottom: 100px;
+	;
+}
+
+#footer { 
+ background-color: #AEC7A9;
+	position: relative;
+	height: 140px;
+	margin-top: -100px;
+	clear: both;
+	border-color: #F8D4E7;
+	border-style: dotted;
+	
+	
+}
+
+#me2 {
+	
+	margin-left: 260px;
+	animation-direction: reverse;
+	transition-duration: 1000ms;
+	
+	
+	
+}
+
+#me2:hover{
+	
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
+
+
+
+#w3c {
+	
+	margin-left: 700px;
+	margin-bottom: 1000px;
+	border: none; 
+	
+}
